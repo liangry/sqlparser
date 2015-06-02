@@ -1,0 +1,35 @@
+com.foundationdb.sql.parser.CreateTableNode@7999dcfe
+name: t1
+statementType: CREATE TABLE
+withData: true
+lockGranularity: R
+existenceCheck: NO_CONDITION
+queryExpression: 	
+	com.foundationdb.sql.parser.CursorNode@647be610
+	name: null
+	updateMode: UNSPECIFIED
+	statementType: SELECT
+	resultSet: 		
+		com.foundationdb.sql.parser.SelectNode@23d57fa
+		isDistinct: false
+		resultColumns: 			
+			com.foundationdb.sql.parser.ResultColumnList@95adf3c
+
+			[0]:			
+			com.foundationdb.sql.parser.AllResultColumn@2cf5e0f0
+			tableName: null
+			exposedName: null
+			name: null
+			tableName: null
+			isDefaultColumn: false
+			type: null
+		fromList: 			
+			com.foundationdb.sql.parser.FromList@4282c39f
+
+			[0]:			
+			com.foundationdb.sql.parser.FromBaseTable@16f91dd6
+			tableName: t2
+			updateOrDelete: null
+			null
+			correlation Name: null
+			null

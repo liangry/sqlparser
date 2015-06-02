@@ -1,0 +1,23 @@
+com.foundationdb.sql.parser.AlterTableNode@3b362ca8
+name: t
+statementType: ALTER TABLE
+objectName: t
+compressTable: false
+sequential: false
+truncateTable: false
+purge: false
+defragment: false
+truncateEndOfTable: false
+updateStatistics: false
+updateStatisticsAll: false
+indexNameForUpdateStatistics: null
+existenceCheck: NO_CONDITION
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@61ade7f6
+
+	[0]:	
+	com.foundationdb.sql.parser.AlterDropIndexNode@6057f993
+	name: x
+	elementType: AT_DROP_INDEX
+	
+	existenceCheck: IF_EXISTS

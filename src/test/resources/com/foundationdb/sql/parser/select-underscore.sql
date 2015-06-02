@@ -1,0 +1,1 @@
+SELECT _x,_y FROM _t WHERE _z > 3.14 AND _w IS NOT NULL

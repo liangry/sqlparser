@@ -1,0 +1,1 @@
+SET CONSTRAINTS foo, x.bar IMMEDIATE

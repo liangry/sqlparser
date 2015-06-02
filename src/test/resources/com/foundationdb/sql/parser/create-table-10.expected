@@ -1,0 +1,137 @@
+com.foundationdb.sql.parser.CreateTableNode@563af8a6
+name: t
+statementType: CREATE TABLE
+withData: false
+lockGranularity: R
+existenceCheck: NO_CONDITION
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@399a8684
+
+	[0]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@4ff561a7
+	type: DECIMAL(5,0)
+	name: c0
+	elementType: null
+	default: 		
+		com.foundationdb.sql.parser.DefaultNode@76de43f3
+		columnName: null
+		defaultText: random()
+		type: null
+		defaultTree:			
+			com.foundationdb.sql.parser.JavaToSQLValueNode@7a3f437c
+			type: null
+			javaNode: 				
+				com.foundationdb.sql.parser.StaticMethodCallNode@4f67c097
+				javaClassName: null
+				methodName: random
+	[1]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@76de43f3
+	type: INTEGER
+	name: c1
+	elementType: null
+	default: 		
+		com.foundationdb.sql.parser.DefaultNode@4f67c097
+		columnName: null
+		defaultText: 0
+		type: null
+		defaultTree:			
+			com.foundationdb.sql.parser.NumericConstantNode@2495223b
+			value: 0
+			type: INTEGER NOT NULL
+	[2]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@6b081032
+	type: DATE
+	name: c2
+	elementType: null
+	default: 		
+		com.foundationdb.sql.parser.DefaultNode@5e5f7983
+		columnName: null
+		defaultText: CURRENT_DATE
+		type: null
+		defaultTree:			
+			com.foundationdb.sql.parser.CurrentDatetimeOperatorNode@4e22b7dc
+			methodName: CURRENT DATE
+			type: null
+	[3]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@4954f497
+	type: DATE
+	name: c3
+	elementType: null
+	default: 		
+		com.foundationdb.sql.parser.DefaultNode@68860b1d
+		columnName: null
+		defaultText: DATE('2014-4-09')
+		type: null
+		defaultTree:			
+			com.foundationdb.sql.parser.UnaryDateTimestampOperatorNode@3843d287
+			operator: date
+			methodName: date
+			type: DATE
+			operand: 				
+				com.foundationdb.sql.parser.CharConstantNode@6cb2b9ec
+				value: 2014-4-09
+				type: CHAR(9) NOT NULL
+	[4]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@49cc6cb4
+	type: DATE
+	name: c4
+	elementType: null
+	default: 		
+		com.foundationdb.sql.parser.DefaultNode@bf4c346
+		columnName: null
+		defaultText: DATE '2014-04-09'
+		type: null
+		defaultTree:			
+			com.foundationdb.sql.parser.CastNode@72402ecb
+			castTarget: DATE
+			type: DATE
+			castOperand: 				
+				com.foundationdb.sql.parser.CharConstantNode@53c04c06
+				value: 2014-04-09
+				type: CHAR(10) NOT NULL
+	[5]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@75bf48de
+	type: INTEGER
+	name: c5
+	elementType: null
+	default: 		
+		com.foundationdb.sql.parser.DefaultNode@61492336
+		columnName: null
+		defaultText: foo()
+		type: null
+		defaultTree:			
+			com.foundationdb.sql.parser.JavaToSQLValueNode@8a6e020
+			type: null
+			javaNode: 				
+				com.foundationdb.sql.parser.StaticMethodCallNode@3c45950
+				javaClassName: null
+				methodName: foo
+	[6]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@4fc3951e
+	type: INTEGER
+	name: c6
+	elementType: null
+	default: 		
+		com.foundationdb.sql.parser.DefaultNode@31730d7b
+		columnName: null
+		defaultText: abs(c3+1)
+		type: null
+		defaultTree:			
+			com.foundationdb.sql.parser.UnaryArithmeticOperatorNode@787a1f99
+			operator: ABS
+			methodName: absolute
+			type: null
+			operand: 				
+				com.foundationdb.sql.parser.BinaryArithmeticOperatorNode@19b0b39a
+				operator: +
+				methodName: plus
+				type: null
+				leftOperand: 					
+					com.foundationdb.sql.parser.ColumnReference@1fdf50a3
+					columnName: c3
+					tableName: null
+					type: null
+				rightOperand: 					
+					com.foundationdb.sql.parser.NumericConstantNode@7e270dad
+					value: 1
+					type: INTEGER NOT NULL

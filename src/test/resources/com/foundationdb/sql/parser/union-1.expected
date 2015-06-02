@@ -1,0 +1,80 @@
+com.foundationdb.sql.parser.CursorNode@7031086c
+name: null
+updateMode: UNSPECIFIED
+statementType: SELECT
+resultSet: 	
+	com.foundationdb.sql.parser.UnionNode@232023ff
+	tableConstructor: false
+	SetOpName: UNION
+	all: false
+	nestedInParens: false
+	correlation Name: null
+	null
+	resultColumns: 		
+		com.foundationdb.sql.parser.ResultColumnList@131b4c5d
+
+		[0]:		
+		com.foundationdb.sql.parser.ResultColumn@65327777
+		exposedName: null
+		name: null
+		tableName: null
+		isDefaultColumn: false
+		type: null
+		expression: 			
+			com.foundationdb.sql.parser.CharConstantNode@54415988
+			value: foo
+			type: CHAR(3) NOT NULL
+	leftResultSet: 		
+		com.foundationdb.sql.parser.SelectNode@e5d1aef
+		isDistinct: false
+		resultColumns: 			
+			com.foundationdb.sql.parser.ResultColumnList@2934847
+
+			[0]:			
+			com.foundationdb.sql.parser.ResultColumn@136e2ea3
+			exposedName: null
+			name: null
+			tableName: null
+			isDefaultColumn: false
+			type: null
+			expression: 				
+				com.foundationdb.sql.parser.CharConstantNode@26b7d94c
+				value: foo
+				type: CHAR(3) NOT NULL
+		fromList: 			
+			com.foundationdb.sql.parser.FromList@701b206f
+
+			[0]:			
+			com.foundationdb.sql.parser.FromBaseTable@4ee90e9
+			tableName: t1
+			updateOrDelete: null
+			null
+			correlation Name: null
+			null
+	rightResultSet: 		
+		com.foundationdb.sql.parser.SelectNode@4a6bb386
+		isDistinct: false
+		resultColumns: 			
+			com.foundationdb.sql.parser.ResultColumnList@64d74895
+
+			[0]:			
+			com.foundationdb.sql.parser.ResultColumn@71de61eb
+			exposedName: null
+			name: null
+			tableName: null
+			isDefaultColumn: false
+			type: null
+			expression: 				
+				com.foundationdb.sql.parser.CharConstantNode@3eeec5b4
+				value: bar
+				type: CHAR(3) NOT NULL
+		fromList: 			
+			com.foundationdb.sql.parser.FromList@2df5ccb3
+
+			[0]:			
+			com.foundationdb.sql.parser.FromBaseTable@64521357
+			tableName: t2
+			updateOrDelete: null
+			null
+			correlation Name: null
+			null

@@ -1,0 +1,56 @@
+com.foundationdb.sql.parser.CreateTableNode@25644679
+name: t1
+statementType: CREATE TABLE
+withData: false
+lockGranularity: R
+existenceCheck: NO_CONDITION
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@5a4ec51c
+
+	[0]:	
+	com.foundationdb.sql.parser.ConstraintDefinitionNode@696edf95
+	constraintName: null
+	constraintType: PRIMARY_KEY
+	properties: null
+	name: null
+	elementType: AT_DROP_CONSTRAINT
+	columnList: 		
+		com.foundationdb.sql.parser.ResultColumnList@6e18e546
+
+		[0]:		
+		com.foundationdb.sql.parser.ResultColumn@24748f22
+		exposedName: c1
+		name: c1
+		tableName: null
+		isDefaultColumn: false
+		type: null
+	[1]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@606113e0
+	type: INTEGER UNSIGNED
+	name: c1
+	elementType: null
+	[2]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@560088f
+	type: SMALLINT UNSIGNED
+	name: c2
+	elementType: null
+	[3]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@63d1e70a
+	type: BIGINT UNSIGNED
+	name: c3
+	elementType: null
+	[4]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@699774b8
+	type: DECIMAL(5,0) UNSIGNED
+	name: c4
+	elementType: null
+	[5]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@56701230
+	type: DOUBLE UNSIGNED
+	name: c5
+	elementType: null
+	[6]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@57ba39a5
+	type: DOUBLE UNSIGNED
+	name: c6
+	elementType: null

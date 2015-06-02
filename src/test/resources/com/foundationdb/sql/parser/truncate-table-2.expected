@@ -1,0 +1,15 @@
+com.foundationdb.sql.parser.AlterTableNode@223017cd
+name: t
+statementType: TRUNCATE TABLE
+objectName: t
+compressTable: false
+sequential: false
+truncateTable: true
+purge: false
+defragment: false
+truncateEndOfTable: false
+updateStatistics: false
+updateStatisticsAll: false
+indexNameForUpdateStatistics: null
+existenceCheck: NO_CONDITION
+

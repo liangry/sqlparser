@@ -1,0 +1,249 @@
+com.foundationdb.sql.parser.CreateTableNode@232c5bfc
+name: t1
+statementType: CREATE TABLE
+withData: false
+lockGranularity: R
+existenceCheck: NO_CONDITION
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@354b0f6e
+
+	[0]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@52e21a17
+	type: INTEGER NOT NULL
+	name: col1
+	elementType: null
+	[1]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@7a1f0683
+	type: INTEGER
+	name: col2
+	elementType: null
+	[2]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@ae4c118
+	type: SMALLINT NOT NULL
+	name: col3
+	elementType: null
+	[3]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@3041143e
+	type: SMALLINT
+	name: col4
+	elementType: null
+	[4]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@980b32
+	type: BIGINT NOT NULL
+	name: col5
+	elementType: null
+	[5]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@7e06ffeb
+	type: BIGINT
+	name: col6
+	elementType: null
+	[6]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@7d8bddf0
+	type: CHAR(1) NOT NULL
+	name: col10
+	elementType: null
+	[7]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@6997f7f4
+	type: CHAR(1)
+	name: col11
+	elementType: null
+	[8]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@7817ea54
+	type: VARCHAR(1) NOT NULL
+	name: col12
+	elementType: null
+	[9]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@6a196e64
+	type: VARCHAR(1)
+	name: col13
+	elementType: null
+	[10]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@2b9e9da7
+	type: LONG VARCHAR NOT NULL
+	name: col14
+	elementType: null
+	[11]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@3a805550
+	type: LONG VARCHAR
+	name: col15
+	elementType: null
+	[12]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@3f611531
+	type: DOUBLE NOT NULL
+	name: col20
+	elementType: null
+	[13]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@7eb66478
+	type: DOUBLE
+	name: col21
+	elementType: null
+	[14]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@787e4345
+	type: REAL NOT NULL
+	name: col22
+	elementType: null
+	[15]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@2972a4d0
+	type: REAL
+	name: col23
+	elementType: null
+	[16]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@25a268f2
+	type: DOUBLE NOT NULL
+	name: col24
+	elementType: null
+	[17]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@4997fb2b
+	type: DOUBLE
+	name: col25
+	elementType: null
+	[18]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@18eae9cc
+	type: DATE NOT NULL
+	name: col30
+	elementType: null
+	[19]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@669b5cdb
+	type: DATE
+	name: col31
+	elementType: null
+	[20]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@61ed627d
+	type: TIME NOT NULL
+	name: col32
+	elementType: null
+	[21]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@27dd2ec5
+	type: TIME
+	name: col33
+	elementType: null
+	[22]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@2a299bf5
+	type: TIMESTAMP NOT NULL
+	name: col34
+	elementType: null
+	[23]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@11be0773
+	type: TIMESTAMP
+	name: col35
+	elementType: null
+	[24]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@52db181e
+	type: DATETIME
+	name: col36
+	elementType: null
+	[25]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@2e0c8411
+	type: DATETIME NOT NULL
+	name: col37
+	elementType: null
+	[26]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@37b28fb5
+	type: YEAR
+	name: col38
+	elementType: null
+	[27]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@2bf8d0a4
+	type: YEAR NOT NULL
+	name: col39
+	elementType: null
+	[28]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@5c49d589
+	type: CLOB(2147483647) NOT NULL
+	name: col40
+	elementType: null
+	[29]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@736244b4
+	type: CLOB(2147483647)
+	name: col41
+	elementType: null
+	[30]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@388cc09a
+	type: BLOB(2147483647) NOT NULL
+	name: col42
+	elementType: null
+	[31]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@20b8db77
+	type: BLOB(2147483647)
+	name: col43
+	elementType: null
+	[32]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@48507269
+	type: DECIMAL(5,0) NOT NULL
+	name: col50
+	elementType: null
+	[33]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@19877096
+	type: DECIMAL(5,0)
+	name: col51
+	elementType: null
+	[34]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@af094f2
+	type: DECIMAL(1,0) NOT NULL
+	name: col52
+	elementType: null
+	[35]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@38c2a17a
+	type: DECIMAL(1,0)
+	name: col53
+	elementType: null
+	[36]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@71f76db2
+	type: DECIMAL(10,0) NOT NULL
+	name: col54
+	elementType: null
+	[37]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@2b42fb92
+	type: DECIMAL(10,0)
+	name: col55
+	elementType: null
+	[38]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@3a92446e
+	type: DECIMAL(1,1) NOT NULL
+	name: col56
+	elementType: null
+	[39]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@58caafcc
+	type: DECIMAL(1,1)
+	name: col57
+	elementType: null
+	[40]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@62dba79e
+	type: DECIMAL(10,1) NOT NULL
+	name: col58
+	elementType: null
+	[41]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@42d9a8c6
+	type: DECIMAL(10,1)
+	name: col59
+	elementType: null
+	[42]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@5fd78173
+	type: DECIMAL(10,10) NOT NULL
+	name: col60
+	elementType: null
+	[43]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@3d73d62d
+	type: DECIMAL(10,10)
+	name: col61
+	elementType: null
+	[44]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@7ff243df
+	type: DECIMAL(30,10) NOT NULL
+	name: col62
+	elementType: null
+	[45]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@7a462718
+	type: DECIMAL(30,10)
+	name: col63
+	elementType: null
+	[46]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@13b0d75f
+	type: NUMERIC NOT NULL
+	name: col70
+	elementType: null
+	[47]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@3f0ba812
+	type: NUMERIC
+	name: col71
+	elementType: null

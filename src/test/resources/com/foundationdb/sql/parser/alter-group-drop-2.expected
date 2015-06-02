@@ -1,0 +1,32 @@
+com.foundationdb.sql.parser.AlterTableNode@71f948b1
+name: o
+statementType: ALTER TABLE
+objectName: o
+compressTable: false
+sequential: false
+truncateTable: false
+purge: false
+defragment: false
+truncateEndOfTable: false
+updateStatistics: false
+updateStatisticsAll: false
+indexNameForUpdateStatistics: null
+existenceCheck: IF_EXISTS
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@251396ec
+
+	[0]:	
+	com.foundationdb.sql.parser.FKConstraintDefinitionNode@291972f8
+	refTable name : null
+	matchType: null
+	grouping: true
+	deferrable: false
+	initiallyDeferred: false
+	constraintName: null
+	constraintType: DROP
+	verifyType: FOREIGN_KEY
+	properties: null
+	existenceCheck: IF_EXISTS
+	name: null
+	elementType: AT_DROP_CONSTRAINT
+

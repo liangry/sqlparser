@@ -1,0 +1,5 @@
+com.foundationdb.sql.parser.DropTableNode@d1dc62a
+name: eventcachetest$simple
+statementType: DROP TABLE
+dropBehavior: 2
+existenceCheck: IF_EXISTS

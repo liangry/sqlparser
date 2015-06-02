@@ -1,0 +1,40 @@
+com.foundationdb.sql.parser.AlterTableNode@7a542594
+name: o
+statementType: ALTER TABLE
+objectName: o
+compressTable: false
+sequential: false
+truncateTable: false
+purge: false
+defragment: false
+truncateEndOfTable: false
+updateStatistics: false
+updateStatisticsAll: false
+indexNameForUpdateStatistics: null
+existenceCheck: IF_EXISTS
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@2a6f564a
+
+	[0]:	
+	com.foundationdb.sql.parser.FKConstraintDefinitionNode@738a2a09
+	refTable name : c
+	matchType: SIMPLE
+	grouping: true
+	deferrable: false
+	initiallyDeferred: false
+	constraintName: null
+	constraintType: FOREIGN_KEY
+	properties: null
+	name: null
+	elementType: AT_DROP_CONSTRAINT
+	columnList: 		
+		com.foundationdb.sql.parser.ResultColumnList@73cdf021
+
+		[0]:		
+		com.foundationdb.sql.parser.ResultColumn@555041ec
+		exposedName: id
+		name: id
+		tableName: null
+		isDefaultColumn: false
+		type: null
+

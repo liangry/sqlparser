@@ -1,0 +1,31 @@
+com.foundationdb.sql.parser.CreateTableNode@3560721e
+name: t1
+statementType: CREATE TABLE
+withData: false
+lockGranularity: R
+existenceCheck: NO_CONDITION
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@4ee42af2
+
+	[0]:	
+	com.foundationdb.sql.parser.ConstraintDefinitionNode@65bf9e54
+	constraintName: null
+	constraintType: PRIMARY_KEY
+	properties: null
+	name: null
+	elementType: AT_DROP_CONSTRAINT
+	columnList: 		
+		com.foundationdb.sql.parser.ResultColumnList@733d0fc
+
+		[0]:		
+		com.foundationdb.sql.parser.ResultColumn@5add5415
+		exposedName: col1
+		name: col1
+		tableName: null
+		isDefaultColumn: false
+		type: null
+	[1]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@78bb5d4d
+	type: INTEGER
+	name: col1
+	elementType: null

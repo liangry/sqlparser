@@ -1,0 +1,1 @@
+SELECT "$t".a, "$u".b FROM "$t" JOIN "$u" ON "$t".id = "$u".id

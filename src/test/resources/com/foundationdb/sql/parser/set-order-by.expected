@@ -1,0 +1,92 @@
+com.foundationdb.sql.parser.CursorNode@289e84fd
+name: null
+updateMode: UNSPECIFIED
+statementType: SELECT
+resultSet: 	
+	com.foundationdb.sql.parser.IntersectOrExceptNode@3f2d12e0
+	SetOpName: INTERSECT
+	all: false
+	nestedInParens: false
+	correlation Name: null
+	null
+	resultColumns: 		
+		com.foundationdb.sql.parser.ResultColumnList@28325087
+
+		[0]:		
+		com.foundationdb.sql.parser.ResultColumn@7f44e3ae
+		exposedName: null
+		name: null
+		tableName: null
+		isDefaultColumn: false
+		type: null
+		expression: 			
+			com.foundationdb.sql.parser.CharConstantNode@3bff5c9
+			value: foo
+			type: CHAR(3) NOT NULL
+	leftResultSet: 		
+		com.foundationdb.sql.parser.SelectNode@2fa1610b
+		isDistinct: false
+		resultColumns: 			
+			com.foundationdb.sql.parser.ResultColumnList@bea319b
+
+			[0]:			
+			com.foundationdb.sql.parser.ResultColumn@3c5ebd39
+			exposedName: null
+			name: null
+			tableName: null
+			isDefaultColumn: false
+			type: null
+			expression: 				
+				com.foundationdb.sql.parser.CharConstantNode@6fd90825
+				value: foo
+				type: CHAR(3) NOT NULL
+		fromList: 			
+			com.foundationdb.sql.parser.FromList@11a5ee81
+
+			[0]:			
+			com.foundationdb.sql.parser.FromBaseTable@24cd6034
+			tableName: t1
+			updateOrDelete: null
+			null
+			correlation Name: null
+			null
+	rightResultSet: 		
+		com.foundationdb.sql.parser.SelectNode@276708cc
+		isDistinct: false
+		resultColumns: 			
+			com.foundationdb.sql.parser.ResultColumnList@5d729d49
+
+			[0]:			
+			com.foundationdb.sql.parser.ResultColumn@fb4538d
+			exposedName: null
+			name: null
+			tableName: null
+			isDefaultColumn: false
+			type: null
+			expression: 				
+				com.foundationdb.sql.parser.CharConstantNode@7d95609
+				value: bar
+				type: CHAR(3) NOT NULL
+		fromList: 			
+			com.foundationdb.sql.parser.FromList@4d9f6ce5
+
+			[0]:			
+			com.foundationdb.sql.parser.FromBaseTable@1da65633
+			tableName: t2
+			updateOrDelete: null
+			null
+			correlation Name: null
+			null
+orderByList: 	
+	com.foundationdb.sql.parser.OrderByList@13653d7a
+	allAscending: true
+	[0]:	
+	com.foundationdb.sql.parser.OrderByColumn@5ba71e88
+	ascending: true
+	nullsOrderedLow: false
+	columnPosition: -1
+	expression: 		
+		com.foundationdb.sql.parser.ColumnReference@38c5a1ba
+		columnName: a
+		tableName: null
+		type: null

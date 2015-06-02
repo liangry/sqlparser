@@ -1,0 +1,85 @@
+com.foundationdb.sql.parser.CursorNode@5559fd10
+name: null
+updateMode: UNSPECIFIED
+statementType: SELECT
+resultSet: 	
+	com.foundationdb.sql.parser.IntersectOrExceptNode@6f55137
+	SetOpName: EXCEPT
+	all: false
+	nestedInParens: false
+	correlation Name: null
+	null
+	resultColumns: 		
+		com.foundationdb.sql.parser.ResultColumnList@53a6f572
+
+		[0]:		
+		com.foundationdb.sql.parser.AllResultColumn@763c3a45
+		tableName: null
+		exposedName: null
+		name: null
+		tableName: null
+		isDefaultColumn: false
+		type: null
+	leftResultSet: 		
+		com.foundationdb.sql.parser.SelectNode@6c15c4a7
+		isDistinct: false
+		resultColumns: 			
+			com.foundationdb.sql.parser.ResultColumnList@921e761
+
+			[0]:			
+			com.foundationdb.sql.parser.AllResultColumn@10dd95f6
+			tableName: null
+			exposedName: null
+			name: null
+			tableName: null
+			isDefaultColumn: false
+			type: null
+		fromList: 			
+			com.foundationdb.sql.parser.FromList@43a05220
+
+			[0]:			
+			com.foundationdb.sql.parser.FromBaseTable@526fd58f
+			tableName: t1
+			updateOrDelete: null
+			null
+			correlation Name: null
+			null
+		whereClause: 			
+			com.foundationdb.sql.parser.BinaryRelationalOperatorNode@2c2dc991
+			operator: =
+			methodName: equals
+			type: null
+			leftOperand: 				
+				com.foundationdb.sql.parser.ColumnReference@720c653f
+				columnName: name
+				tableName: null
+				type: null
+			rightOperand: 				
+				com.foundationdb.sql.parser.ColumnReference@bcb4598
+				columnName: some name
+				tableName: null
+				type: null
+	rightResultSet: 		
+		com.foundationdb.sql.parser.SelectNode@4e460434
+		isDistinct: false
+		resultColumns: 			
+			com.foundationdb.sql.parser.ResultColumnList@56be1a11
+
+			[0]:			
+			com.foundationdb.sql.parser.AllResultColumn@5aa17e94
+			tableName: null
+			exposedName: null
+			name: null
+			tableName: null
+			isDefaultColumn: false
+			type: null
+		fromList: 			
+			com.foundationdb.sql.parser.FromList@207d5508
+
+			[0]:			
+			com.foundationdb.sql.parser.FromBaseTable@45990e2
+			tableName: t2
+			updateOrDelete: null
+			null
+			correlation Name: null
+			null

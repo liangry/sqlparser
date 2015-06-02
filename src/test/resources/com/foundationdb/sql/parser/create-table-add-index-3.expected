@@ -1,0 +1,87 @@
+com.foundationdb.sql.parser.CreateTableNode@2c179360
+name: items
+statementType: CREATE TABLE
+withData: false
+lockGranularity: R
+existenceCheck: NO_CONDITION
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@3fcc9a3d
+
+	[0]:	
+	com.foundationdb.sql.parser.ConstraintDefinitionNode@11a23b84
+	constraintName: null
+	constraintType: PRIMARY_KEY
+	properties: null
+	name: null
+	elementType: AT_DROP_CONSTRAINT
+	columnList: 		
+		com.foundationdb.sql.parser.ResultColumnList@31f16027
+
+		[0]:		
+		com.foundationdb.sql.parser.ResultColumn@5ddfba0e
+		exposedName: iid
+		name: iid
+		tableName: null
+		isDefaultColumn: false
+		type: null
+	[1]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@b301d48
+	type: INTEGER NOT NULL
+	name: iid
+	elementType: null
+	[2]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@3d267b5
+	type: INTEGER
+	name: sku
+	elementType: null
+	[3]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@6a969e08
+	type: INTEGER
+	name: oid
+	elementType: null
+	[4]:	
+	com.foundationdb.sql.parser.FKConstraintDefinitionNode@466155e3
+	refTable name : orders
+	matchType: SIMPLE
+	grouping: true
+	deferrable: false
+	initiallyDeferred: false
+	constraintName: null
+	constraintType: FOREIGN_KEY
+	properties: null
+	name: null
+	elementType: AT_DROP_CONSTRAINT
+	columnList: 		
+		com.foundationdb.sql.parser.ResultColumnList@204dce2e
+
+		[0]:		
+		com.foundationdb.sql.parser.ResultColumn@541b3e93
+		exposedName: oid
+		name: oid
+		tableName: null
+		isDefaultColumn: false
+		type: null
+	[5]:	
+	com.foundationdb.sql.parser.IndexDefinitionNode@48a95008
+	name: null
+	elementType: null
+	unique: false
+	joinType: LEFT_OUTER
+	indexColumnList: 		
+		com.foundationdb.sql.parser.IndexColumnList@63c5627c
+
+		[0]:		
+		com.foundationdb.sql.parser.IndexColumn@33c4ee10
+		columnName: sku
+		tableName: items
+		ascending
+		[1]:		
+		com.foundationdb.sql.parser.IndexColumn@45e976fd
+		columnName: odate
+		tableName: orders
+		ascending
+		[2]:		
+		com.foundationdb.sql.parser.IndexColumn@6282ffe6
+		columnName: name
+		tableName: customers
+		ascending

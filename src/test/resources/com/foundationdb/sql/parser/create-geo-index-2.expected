@@ -1,0 +1,20 @@
+com.foundationdb.sql.parser.CreateIndexNode@32e4445e
+name: idx1
+statementType: CREATE INDEX
+unique: false
+indexName: idx1
+tableName: table1
+joinType: null
+properties: null
+existenceCheck: IF_NOT_EXISTS
+	
+	com.foundationdb.sql.parser.IndexColumnList@2844916c
+	
+	methodName: Z_ORDER_LAT_LON
+	firstArg: 0
+	lastArg: 0
+	[0]:	
+	com.foundationdb.sql.parser.IndexColumn@2da75e1b
+	columnName: c1
+	tableName: null
+	ascending

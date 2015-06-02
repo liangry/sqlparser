@@ -1,0 +1,3 @@
+SELECT 'foo' FROM t1
+EXCEPT ALL
+SELECT 'bar' FROM t2

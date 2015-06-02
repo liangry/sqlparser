@@ -1,0 +1,31 @@
+com.foundationdb.sql.parser.AlterTableNode@1327b0d2
+name: t3
+statementType: ALTER TABLE
+objectName: t3
+compressTable: false
+sequential: false
+truncateTable: false
+purge: false
+defragment: false
+truncateEndOfTable: false
+updateStatistics: false
+updateStatisticsAll: false
+indexNameForUpdateStatistics: null
+existenceCheck: NO_CONDITION
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@12c9b4d1
+
+	[0]:	
+	com.foundationdb.sql.parser.FKConstraintDefinitionNode@787e0ef9
+	refTable name : null
+	matchType: null
+	grouping: false
+	deferrable: false
+	initiallyDeferred: false
+	constraintName: gfk1
+	constraintType: DROP
+	verifyType: FOREIGN_KEY
+	properties: null
+	existenceCheck: IF_EXISTS
+	name: gfk1
+	elementType: AT_DROP_CONSTRAINT

@@ -1,0 +1,41 @@
+com.foundationdb.sql.parser.CreateTableNode@1b609803
+name: t1
+statementType: CREATE TABLE
+withData: false
+lockGranularity: R
+existenceCheck: NO_CONDITION
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@629bfaff
+
+	[0]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@6e7badec
+	type: INTEGER
+	name: c1
+	elementType: null
+	[1]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@79d7999e
+	type: DOUBLE
+	name: c2
+	elementType: null
+	[2]:	
+	com.foundationdb.sql.parser.ColumnDefinitionNode@39a69290
+	type: BIGINT
+	name: c3
+	elementType: null
+	[3]:	
+	com.foundationdb.sql.parser.IndexDefinitionNode@18eae9cc
+	name: indx1
+	elementType: null
+	unique: false
+	joinType: null
+	indexColumnList: 		
+		com.foundationdb.sql.parser.IndexColumnList@63deebc8
+		
+		methodName: Z_ORDER_LAT_LON
+		firstArg: 0
+		lastArg: 0
+		[0]:		
+		com.foundationdb.sql.parser.IndexColumn@4049cab1
+		columnName: c1
+		tableName: null
+		ascending

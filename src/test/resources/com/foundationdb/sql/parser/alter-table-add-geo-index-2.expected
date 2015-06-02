@@ -1,0 +1,34 @@
+com.foundationdb.sql.parser.AlterTableNode@15fd309
+name: t1
+statementType: ALTER TABLE
+objectName: t1
+compressTable: false
+sequential: false
+truncateTable: false
+purge: false
+defragment: false
+truncateEndOfTable: false
+updateStatistics: false
+updateStatisticsAll: false
+indexNameForUpdateStatistics: null
+existenceCheck: NO_CONDITION
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@3a17f493
+
+	[0]:	
+	com.foundationdb.sql.parser.IndexDefinitionNode@6b115cce
+	name: idx2
+	elementType: null
+	unique: true
+	joinType: null
+	indexColumnList: 		
+		com.foundationdb.sql.parser.IndexColumnList@40e40f4c
+		
+		methodName: Z_ORDER_LAT_LON
+		firstArg: 0
+		lastArg: 0
+		[0]:		
+		com.foundationdb.sql.parser.IndexColumn@3ca867dc
+		columnName: c1
+		tableName: null
+		ascending

@@ -1,0 +1,2 @@
+CREATE TABLE T1
+    AS SELECT foo , a, bar FROM T2 WITH NO DATA

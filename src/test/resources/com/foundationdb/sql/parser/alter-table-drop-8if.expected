@@ -1,0 +1,23 @@
+com.foundationdb.sql.parser.AlterTableNode@29aa48fe
+name: t
+statementType: ALTER TABLE
+objectName: t
+compressTable: false
+sequential: false
+truncateTable: false
+purge: false
+defragment: false
+truncateEndOfTable: false
+updateStatistics: false
+updateStatisticsAll: false
+indexNameForUpdateStatistics: null
+existenceCheck: NO_CONDITION
+tableElementList: 	
+	com.foundationdb.sql.parser.TableElementList@6a9e3110
+
+	[0]:	
+	com.foundationdb.sql.parser.ModifyColumnNode@37a7481f
+	existence: IF_EXISTS
+	type: null
+	name: c
+	elementType: AT_DROP_COLUMN

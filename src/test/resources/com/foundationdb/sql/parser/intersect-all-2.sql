@@ -1,0 +1,3 @@
+SELECT * FROM t1 WHERE name = "some name"
+INTERSECT ALL
+SELECT * FROM t2

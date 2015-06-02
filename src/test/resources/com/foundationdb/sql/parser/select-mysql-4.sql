@@ -1,0 +1,1 @@
+SELECT SQL_CACHE a,b,c FROM t1
